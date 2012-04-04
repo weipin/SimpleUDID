@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1654058A152C59DE00F99764 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16540589152C59DE00F99764 /* UIKit.framework */; };
+		1654058C152C59DE00F99764 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1654058B152C59DE00F99764 /* Foundation.framework */; };
+		1654058E152C59DE00F99764 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1654058D152C59DE00F99764 /* CoreGraphics.framework */; };
+		16540594152C59DE00F99764 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 16540592152C59DE00F99764 /* InfoPlist.strings */; };
+		16540596152C59DE00F99764 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16540595152C59DE00F99764 /* main.m */; };
+		1654059A152C59DE00F99764 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16540599152C59DE00F99764 /* AppDelegate.m */; };
+		1654059D152C59DE00F99764 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1654059C152C59DE00F99764 /* ViewController.m */; };
+		165405A0152C59DE00F99764 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1654059E152C59DE00F99764 /* ViewController.xib */; };
+		165405A7152C5A1300F99764 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 165405A6152C5A1300F99764 /* Security.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16540585152C59DE00F99764 /* SimpleUDID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleUDID.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16540589152C59DE00F99764 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1654058B152C59DE00F99764 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1654058D152C59DE00F99764 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		16540591152C59DE00F99764 /* SimpleUDID-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleUDID-Info.plist"; sourceTree = "<group>"; };
+		16540593152C59DE00F99764 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		16540595152C59DE00F99764 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		16540597152C59DE00F99764 /* SimpleUDID-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleUDID-Prefix.pch"; sourceTree = "<group>"; };
+		16540598152C59DE00F99764 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		16540599152C59DE00F99764 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1654059B152C59DE00F99764 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1654059C152C59DE00F99764 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1654059F152C59DE00F99764 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		165405A6152C5A1300F99764 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16540582152C59DE00F99764 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				165405A7152C5A1300F99764 /* Security.framework in Frameworks */,
+				1654058A152C59DE00F99764 /* UIKit.framework in Frameworks */,
+				1654058C152C59DE00F99764 /* Foundation.framework in Frameworks */,
+				1654058E152C59DE00F99764 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1654057A152C59DD00F99764 = {
+			isa = PBXGroup;
+			children = (
+				1654058F152C59DE00F99764 /* SimpleUDID */,
+				16540588152C59DE00F99764 /* Frameworks */,
+				16540586152C59DE00F99764 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16540586152C59DE00F99764 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16540585152C59DE00F99764 /* SimpleUDID.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16540588152C59DE00F99764 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				165405A6152C5A1300F99764 /* Security.framework */,
+				16540589152C59DE00F99764 /* UIKit.framework */,
+				1654058B152C59DE00F99764 /* Foundation.framework */,
+				1654058D152C59DE00F99764 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1654058F152C59DE00F99764 /* SimpleUDID */ = {
+			isa = PBXGroup;
+			children = (
+				16540598152C59DE00F99764 /* AppDelegate.h */,
+				16540599152C59DE00F99764 /* AppDelegate.m */,
+				1654059B152C59DE00F99764 /* ViewController.h */,
+				1654059C152C59DE00F99764 /* ViewController.m */,
+				1654059E152C59DE00F99764 /* ViewController.xib */,
+				16540590152C59DE00F99764 /* Supporting Files */,
+			);
+			path = SimpleUDID;
+			sourceTree = "<group>";
+		};
+		16540590152C59DE00F99764 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				16540591152C59DE00F99764 /* SimpleUDID-Info.plist */,
+				16540592152C59DE00F99764 /* InfoPlist.strings */,
+				16540595152C59DE00F99764 /* main.m */,
+				16540597152C59DE00F99764 /* SimpleUDID-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16540584152C59DE00F99764 /* SimpleUDID */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 165405A3152C59DE00F99764 /* Build configuration list for PBXNativeTarget "SimpleUDID" */;
+			buildPhases = (
+				16540581152C59DE00F99764 /* Sources */,
+				16540582152C59DE00F99764 /* Frameworks */,
+				16540583152C59DE00F99764 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleUDID;
+			productName = SimpleUDID;
+			productReference = 16540585152C59DE00F99764 /* SimpleUDID.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1654057C152C59DD00F99764 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 1654057F152C59DD00F99764 /* Build configuration list for PBXProject "SimpleUDID" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1654057A152C59DD00F99764;
+			productRefGroup = 16540586152C59DE00F99764 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16540584152C59DE00F99764 /* SimpleUDID */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16540583152C59DE00F99764 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16540594152C59DE00F99764 /* InfoPlist.strings in Resources */,
+				165405A0152C59DE00F99764 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16540581152C59DE00F99764 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16540596152C59DE00F99764 /* main.m in Sources */,
+				1654059A152C59DE00F99764 /* AppDelegate.m in Sources */,
+				1654059D152C59DE00F99764 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		16540592152C59DE00F99764 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16540593152C59DE00F99764 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1654059E152C59DE00F99764 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1654059F152C59DE00F99764 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		165405A1152C59DE00F99764 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		165405A2152C59DE00F99764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		165405A4152C59DE00F99764 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleUDID/SimpleUDID-Prefix.pch";
+				INFOPLIST_FILE = "SimpleUDID/SimpleUDID-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		165405A5152C59DE00F99764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleUDID/SimpleUDID-Prefix.pch";
+				INFOPLIST_FILE = "SimpleUDID/SimpleUDID-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1654057F152C59DD00F99764 /* Build configuration list for PBXProject "SimpleUDID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				165405A1152C59DE00F99764 /* Debug */,
+				165405A2152C59DE00F99764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		165405A3152C59DE00F99764 /* Build configuration list for PBXNativeTarget "SimpleUDID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				165405A4152C59DE00F99764 /* Debug */,
+				165405A5152C59DE00F99764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1654057C152C59DD00F99764 /* Project object */;
+}
